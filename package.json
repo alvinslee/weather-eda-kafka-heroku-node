@@ -1,0 +1,19 @@
+{
+  "name": "weather-eda-kafka-heroku-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'do nothing'",
+    "start:consumer": "node consumer.js",
+    "start:producer": "node producer.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "dotenv": "^16.4.5",
+    "kafkajs": "^2.2.4",
+    "pino": "^9.1.0",
+    "pino-pretty": "^11.1.0"
+  },
+  "homepage": "https://github.com/alvinslee/weather-eda-kafka-heroku-node#readme"
+}
